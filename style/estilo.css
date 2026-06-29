@@ -1,0 +1,203 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  justify-content: center;
+  text-align: center;
+  color: #3c184e;
+}
+
+iframe {
+  width: 800px;
+  height: 450px;
+}
+
+.destaque {
+  font-weight: 700;
+}
+
+.italico {
+  font-style: italic;
+}
+
+.banner {
+  background-image: url("../img/banner-topo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 120px 80px;
+  width: 100%;
+}
+
+.logo-container {
+  max-width: 250px;
+}
+
+.logo-container .nome-empresa {
+  font-size: 35px;
+  margin-bottom: 5px;
+  display: inline;
+}
+
+.logo-container .slogan {
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+}
+
+.logo-container img {
+  width: 30px;
+  margin-right: 5px;
+  display: inline;
+}
+
+.banner-content {
+  max-width: 1024px;
+  margin: 70px auto 0 auto;
+  padding: 40px;
+  background-color: #ffffffc4;
+  border-radius: 10px;
+  box-shadow: 0 8px 32px #1f26875e;
+}
+
+.banner-content h1 {
+  font-size: 60px;
+  font-weight: 800;
+  margin: 0 0 40px 0;
+}
+
+.banner-content p a {
+  width: 200px;
+  display: inline-block;
+  margin: 0 auto 0 auto;
+  padding: 10px 25px;
+  background-color: #3c184e;
+  color: #ffff;
+  font-size: 20px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.banner-content p a img {
+  width: 20px;
+}
+
+.services {
+  width: 100%;
+  padding: 120px 80px;
+}
+
+.services-content {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+}
+
+.services-image {
+  width: 100%;
+}
+
+.services-images img {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  border-radius: 5px;
+  box-shadow: 3px 6px 10px 6px #0000005c;
+}
+
+.services h2 {
+  font-size: 36px;
+  margin-bottom: 35px;
+}
+
+.services ul {
+  text-align: left;
+  list-style-type: square;
+}
+
+.services ul li {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.media {
+  background-color: #3c184e;
+  color: white;
+}
+
+.media-content {
+  width: 800px;
+  margin: 0 auto 50px auto;
+  font-size: 40px;
+  padding: 120px 80px;
+}
+
+.media-content ul {
+  margin: 40px auto 0 auto;
+}
+
+.media-list li {
+  display: inline;
+}
+
+.media-list li a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.media-list li a img {
+  width: 50px;
+  height: 50px;
+}
+.suppliers {
+  width: 100%;
+  padding: 120px 80px;
+}
+
+.suppliers-content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.suppliers-content h2 {
+  font-size: 36px;
+  margin: 0 0 45px 0;
+}
+
+.supppliers-images {
+  display: inline-block;
+  width: 800px;
+  margin: 0 auto 0 auto;
+}
+
+.supppliers-images img {
+  width: 148px;
+  height: 148px;
+  margin: 0 15px;
+}
+
+.location {
+  width: 100%;
+  padding: 120px 80px;
+}
+
+.location h2 {
+  font-size: 36px;
+  margin: 0 0 45px 0;
+}
+
+.location p {
+  font-size: 20px;
+  margin: 0 0 45px 0;
+}
+
+.footer {
+  width: 100%;
+  padding: 10px 0;
+  background-color: #3c184e;
+  color: white;
+  font-size: 12px;
+}
