@@ -200,3 +200,7 @@ iframe {
   color: white;
   font-size: 12px;
 }
+
+.footer a {
+  color: #fff;
+}
